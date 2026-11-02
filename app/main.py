@@ -10,5 +10,5 @@ app = FastAPI(
 
 
 @app.get('/')
-async def home_api():
+async def home_api_1():
     return {"message":"Student Management API is running"}
